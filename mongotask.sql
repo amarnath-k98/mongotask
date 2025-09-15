@@ -1,4 +1,4 @@
-// Connect to MongoDB and create the database
+--  Connect to MongoDB and create the database
 use mongotask;
 
 --  1. Users

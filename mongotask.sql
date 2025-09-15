@@ -88,7 +88,7 @@ db.topics.aggregate([
   }
 ]);
 
-// 2. Company drives between 15–31 Oct
+--  2. Company drives between 15–31 Oct
 db.company_drives.find({
   drive_date: {
     $gte: ISODate("2020-10-15"),
